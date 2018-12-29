@@ -652,9 +652,7 @@ input:checked + .pictures .moon {
   background-color: #f2ed8f;
   box-shadow: 0 0 20px rgba(255, 247, 96, 0.5);
   opacity: 0;
-  left: auto;
   top: 140px;
-  right: initial;
   right: 200px;
 }
 
