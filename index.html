@@ -6,7 +6,71 @@
 		<title>Yutzu's Resume</title>
 		<link rel=stylesheet type="text/css" href="main.css">
 		<script src="//code.jquery.com/jquery-latest.min.js"></script>
-		
+		<script>
+			$(document).ready(function () {
+				//console.log('1');
+				alert(1);
+			})
+    
+     	 	$(document).ready(function() {
+			
+			  $("#page2").css("display","block")
+			})
+			$(".cross1").click(function(){
+			  $("#page2").css("display","none")
+			})
+
+			// Page3 portfo open/close
+			$(".bookword").click(function(){
+			  $("#page3").css("display","block")
+			})
+			$(".cross2").click(function(){
+			  $("#page3").css("display","none")
+			})
+
+			// Page4 open/close
+			$(".phoneword").click(function(){
+			  $("#page4").css("display","block")
+			})
+			$(".cross3").click(function(){
+			  $("#page4").css("display","none")
+			})
+
+			// portfolios next/last
+			//portfo1 -> portfo2
+			$(".next1").click(function(){
+			  $(".portfo1").css("display","none")
+			  $(".portfo2").css("display","block")
+			  $(".last2").css("display","block")
+			  $(".next1").css("display","none")
+			  $(".next2").css("display","block")
+			})
+			//portfo2 -> portfo3
+			$(".next2").click(function(){
+			  $(".portfo2").css("display","none")
+			  $(".portfo3").css("display","block")
+			  $(".last3").css("display","block")
+			  $(".next2").css("display","none")
+			})
+			//portfo3 -> portfo2
+			$(".last3").click(function(){
+			  $(".portfo3").css("display","none")
+			  $(".portfo2").css("display","block")
+			  $(".last3").css("display","none")
+			  $(".last2").css("display","block")
+			  $(".next2").css("display","block")
+			})
+			//portfo2 -> portfo1
+			$(".last2").click(function(){
+			  $(".portfo2").css("display","none")
+			  $(".portfo1").css("display","block")
+			  $(".last2").css("display","none")
+			  $(".next1").css("display","block")
+			  $(".next2").css("display","none")
+			})
+		})
+
+		</script>
 	</head>
 	<body>
 		
@@ -80,66 +144,5 @@
 		    </div>
 		  </div>
 		</div>
-		<script>
-    
-     	 	$(document).ready(function() {
-			
-				  $("#page2").css("display","block")
-				})
-				$(".cross1").click(function(){
-				  $("#page2").css("display","none")
-				})
-
-				// Page3 portfo open/close
-				$(".bookword").click(function(){
-				  $("#page3").css("display","block")
-				})
-				$(".cross2").click(function(){
-				  $("#page3").css("display","none")
-				})
-
-				// Page4 open/close
-				$(".phoneword").click(function(){
-				  $("#page4").css("display","block")
-				})
-				$(".cross3").click(function(){
-				  $("#page4").css("display","none")
-				})
-
-				// portfolios next/last
-				//portfo1 -> portfo2
-				$(".next1").click(function(){
-				  $(".portfo1").css("display","none")
-				  $(".portfo2").css("display","block")
-				  $(".last2").css("display","block")
-				  $(".next1").css("display","none")
-				  $(".next2").css("display","block")
-				})
-				//portfo2 -> portfo3
-				$(".next2").click(function(){
-				  $(".portfo2").css("display","none")
-				  $(".portfo3").css("display","block")
-				  $(".last3").css("display","block")
-				  $(".next2").css("display","none")
-				})
-				//portfo3 -> portfo2
-				$(".last3").click(function(){
-				  $(".portfo3").css("display","none")
-				  $(".portfo2").css("display","block")
-				  $(".last3").css("display","none")
-				  $(".last2").css("display","block")
-				  $(".next2").css("display","block")
-				})
-				//portfo2 -> portfo1
-				$(".last2").click(function(){
-				  $(".portfo2").css("display","none")
-				  $(".portfo1").css("display","block")
-				  $(".last2").css("display","none")
-				  $(".next1").css("display","block")
-				  $(".next2").css("display","none")
-				})
-			})
-
-		</script>
 	</body>
 	</html>	
