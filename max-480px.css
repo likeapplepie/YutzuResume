@@ -31,46 +31,46 @@ label {
 .pictures {
   width: 358.575px;
   height: 201.6px;
-  border-radius: 4.5px;
+  border-radius: 5.25px;
   position: absolute;
   background: linear-gradient(#d9eae9, #c5dfe3, #47878e, #304254, #111a24);
   background-size: 100% 200%;
   overflow: hidden;
   z-index: 1;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 3.5px 3.5px 3.5px rgba(0, 0, 0, 0.3);
 }
 
 .mountain {
-  width: 307.4px;
-  top: 28.5px;
+  width: 358.58px;
+  top: 34px;
   z-index: 3;
 }
 
 .windowdesk {
-  width: 307.35px;
+  width: 358.58px;
   z-index: 4;
 }
 
 .plant {
-  width: 24.915px;
-  left: 195px;
-  top: 90px;
+  width: 29.07px;
+  left: 227.5px;
+  top: 105px;
   right: initial;
   z-index: 5;
 }
 
 .lamp {
-  width: 39.3px;
-  left: 240px;
-  top: 45px;
+  width: 45.85px;
+  left: 280px;
+  top: 52.5px;
   right: initial;
   z-index: 5;
 }
 
 .book {
-  width: 52.8px;
-  left: 144px;
-  top: 129px;
+  width: 61.6px;
+  left: 168px;
+  top: 150.5px;
   right: initial;
   z-index: 5;
   transition: 0.5s;
@@ -83,9 +83,9 @@ label {
 }
 
 .phone {
-  width: 15px;
-  left: 210px;
-  top: 141px;
+  width: 17.5px;
+  left: 245px;
+  top: 164.5px;
   right: initial;
   z-index: 5;
   transition: 0.5s;
@@ -100,44 +100,44 @@ label {
 .monitor {
   opacity: 0;
   z-index: 6;
-  width: 56.946px;
-  left: 62.4px;
-  top: 80.7px;
+  width: 66.437px;
+  left: 72.8px;
+  top: 94.15px;
   right: initial;
   transition: 0.5s;
 }
 
 .laptop {
-  width: 73.8px;
-  left: 54px;
-  top: 78px;
+  width: 86.1px;
+  left: 63px;
+  top: 91px;
   right: initial;
   z-index: 5;
   transition: 0.5s;
 }
 
 .aboutMe {
-  width: 26.82px;
-  left: 75px;
-  top: 48px;
+  width: 31.29px;
+  left: 87.5px;
+  top: 56px;
   right: initial;
   display: none;
   z-index: 7;
 }
 
 .contactMe {
-  width: 26.82px;
-  left: 204px;
-  top: 111px;
+  width: 31.29px;
+  left: 238px;
+  top: 129.5px;
   right: initial;
   display: none;
   z-index: 7;
 }
 
 .portfolio {
-  width: 26.82px;
-  left: 156px;
-  top: 99px;
+  width: 31.29px;
+  left: 182px;
+  top: 115.5px;
   right: initial;
   display: none;
   z-index: 7;
@@ -187,17 +187,17 @@ label {
   transition: 0.5s;
 }
 .information .box {
-  width: 307.2px;
-  height: 172.8px;
+  width: 358.4px;
+  height: 201.6px;
   border-radius: 0;
   margin: 0;
   padding: 0;
   background-color: #ede2e3;
 }
 .information .cross {
-  width: 15px;
-  bottom: 5px;
-  right: 5px;
+  width: 17.5px;
+  bottom: 7px;
+  right: 7px;
   z-index: 9;
   transition: 0.5s;
 }
@@ -223,16 +223,16 @@ label {
 }
 
 .profile {
-  width: 270px;
-  left: 16.5px;
-  top: 15px;
+  width: 315px;
+  left: 19.25px;
+  top: 17.5px;
   right: initial;
 }
 
 /*page3 portfo */
 .next, .last {
   position: absolute;
-  width: 15px;
+  width: 17.5px;
   z-index: 9;
   opacity: 0.5;
 }
@@ -242,14 +242,14 @@ label {
 }
 
 .next {
-  left: 279px;
-  top: 75px;
+  left: 325.5px;
+  top: 87.5px;
   right: initial;
 }
 
 .last {
-  left: 9px;
-  top: 75px;
+  left: 10.5px;
+  top: 87.5px;
   right: initial;
 }
 
@@ -258,9 +258,9 @@ label {
 }
 
 .portfo {
-  width: 195px;
-  left: 54px;
-  top: 10.5px;
+  width: 227.5px;
+  left: 63px;
+  top: 12.25px;
   right: initial;
 }
 
@@ -289,19 +289,19 @@ label {
 }
 
 .contact {
-  width: 180px;
-  left: 30px;
-  top: 9px;
+  width: 210px;
+  left: 35px;
+  top: 10.5px;
   right: initial;
 }
 
 .fb {
   transition: 0s;
-  font-size: 9px;
+  font-size: 10.5px;
   letter-spacing: 1px;
   color: #434547;
-  left: 168px;
-  top: 93px;
+  left: 196px;
+  top: 108.5px;
   right: initial;
 }
 .fb:hover {
@@ -314,9 +314,9 @@ a {
 }
 
 .gmail {
-  font-size: 8.1px;
-  left: 168px;
-  top: 216px;
+  font-size: 9.45px;
+  left: 196px;
+  top: 126px;
   right: initial;
   transition: 0s;
   letter-spacing: 1px;
@@ -336,8 +336,8 @@ a {
 }
 
 [class^='star'] {
-  width: 0.9px;
-  height: 0.9px;
+  width: 1.05px;
+  height: 1.05px;
   border-radius: 50%;
   background-color: #fff;
   -webkit-animation: falling 2s infinite;
@@ -345,240 +345,240 @@ a {
 }
 
 .star1 {
-  left: 3.5956787905%;
-  top: 27.9801942491%;
+  left: 41.1272382964%;
+  top: 27.9492202818%;
   right: initial;
   -webkit-animation-delay: -0.1s;
           animation-delay: -0.1s;
 }
 
 .star2 {
-  left: 23.807919199%;
-  top: 2.1300402905%;
+  left: 41.0316864311%;
+  top: -27.9192263129%;
   right: initial;
   -webkit-animation-delay: -0.2s;
           animation-delay: -0.2s;
 }
 
 .star3 {
-  left: 78.8785418566%;
-  top: -19.851518554%;
+  left: 22.0359649531%;
+  top: 25.7317862175%;
   right: initial;
   -webkit-animation-delay: -0.3s;
           animation-delay: -0.3s;
 }
 
 .star4 {
-  left: 88.439802956%;
-  top: -19.742004655%;
+  left: 55.3261370025%;
+  top: -17.235293273%;
   right: initial;
   -webkit-animation-delay: -0.4s;
           animation-delay: -0.4s;
 }
 
 .star5 {
-  left: 25.6234377954%;
-  top: 34.1348533836%;
+  left: 20.9848797939%;
+  top: 32.7982952125%;
   right: initial;
   -webkit-animation-delay: -0.5s;
           animation-delay: -0.5s;
 }
 
 .star6 {
-  left: 15.5696363007%;
-  top: 1.0548753007%;
+  left: 17.1579229605%;
+  top: 45.6513371911%;
   right: initial;
   -webkit-animation-delay: -0.6s;
           animation-delay: -0.6s;
 }
 
 .star7 {
-  left: 96.7006628797%;
-  top: 44.41915945%;
+  left: 64.0859754703%;
+  top: 4.0379768751%;
   right: initial;
   -webkit-animation-delay: -0.7s;
           animation-delay: -0.7s;
 }
 
 .star8 {
-  left: 87.4557073706%;
-  top: -12.7116331584%;
+  left: 24.0463186058%;
+  top: 25.3605114917%;
   right: initial;
   -webkit-animation-delay: -0.8s;
           animation-delay: -0.8s;
 }
 
 .star9 {
-  left: 21.2807152491%;
-  top: 10.8358829681%;
+  left: 61.0149837342%;
+  top: -16.6629661301%;
   right: initial;
   -webkit-animation-delay: -0.9s;
           animation-delay: -0.9s;
 }
 
 .star10 {
-  left: 61.2060805371%;
-  top: -9.0498799782%;
+  left: 65.1517105352%;
+  top: 11.1168416344%;
   right: initial;
   -webkit-animation-delay: -1s;
           animation-delay: -1s;
 }
 
 .star11 {
-  left: 65.633388399%;
-  top: 28.8069332078%;
+  left: 92.1613091541%;
+  top: 43.3156930205%;
   right: initial;
   -webkit-animation-delay: -1.1s;
           animation-delay: -1.1s;
 }
 
 .star12 {
-  left: 44.9482240418%;
-  top: 3.0349657001%;
+  left: 9.073672516%;
+  top: 25.7656254475%;
   right: initial;
   -webkit-animation-delay: -1.2s;
           animation-delay: -1.2s;
 }
 
 .star13 {
-  left: 56.6075660574%;
-  top: 23.0734025242%;
+  left: 30.0967793258%;
+  top: -28.5655021768%;
   right: initial;
   -webkit-animation-delay: -1.3s;
           animation-delay: -1.3s;
 }
 
 .star14 {
-  left: 85.0455667752%;
-  top: 28.5112137003%;
+  left: 5.7193341042%;
+  top: -0.6958493314%;
   right: initial;
   -webkit-animation-delay: -1.4s;
           animation-delay: -1.4s;
 }
 
 .star15 {
-  left: 51.8613352633%;
-  top: -11.4887829346%;
+  left: 42.2487116583%;
+  top: 9.0311935533%;
   right: initial;
   -webkit-animation-delay: -1.5s;
           animation-delay: -1.5s;
 }
 
 .star16 {
-  left: 58.1133174891%;
-  top: -28.2987166494%;
+  left: 86.6534219137%;
+  top: 12.5420634874%;
   right: initial;
   -webkit-animation-delay: -1.6s;
           animation-delay: -1.6s;
 }
 
 .star17 {
-  left: 18.1587694498%;
-  top: 7.4345932064%;
+  left: 54.5455292047%;
+  top: -0.3484778876%;
   right: initial;
   -webkit-animation-delay: -1.7s;
           animation-delay: -1.7s;
 }
 
 .star18 {
-  left: 91.5090364849%;
-  top: 47.7406847624%;
+  left: 46.2739035031%;
+  top: 23.3343517524%;
   right: initial;
   -webkit-animation-delay: -1.8s;
           animation-delay: -1.8s;
 }
 
 .star19 {
-  left: 49.9378893875%;
-  top: 46.4043571331%;
+  left: 51.1064164155%;
+  top: 35.4592968196%;
   right: initial;
   -webkit-animation-delay: -1.9s;
           animation-delay: -1.9s;
 }
 
 .star20 {
-  left: 71.5914169131%;
-  top: -14.7039597283%;
+  left: 8.2166397771%;
+  top: 25.4230337055%;
   right: initial;
   -webkit-animation-delay: -2s;
           animation-delay: -2s;
 }
 
 .star21 {
-  left: 58.186478077%;
-  top: 29.2525602664%;
+  left: 43.2163286206%;
+  top: 43.6901304929%;
   right: initial;
   -webkit-animation-delay: -2.1s;
           animation-delay: -2.1s;
 }
 
 .star22 {
-  left: 53.4466326918%;
-  top: 39.306286736%;
+  left: 79.5442544055%;
+  top: 48.1871553408%;
   right: initial;
   -webkit-animation-delay: -2.2s;
           animation-delay: -2.2s;
 }
 
 .star23 {
-  left: 46.3595914416%;
-  top: -28.3788698156%;
+  left: 29.9581558956%;
+  top: 42.0125619832%;
   right: initial;
   -webkit-animation-delay: -2.3s;
           animation-delay: -2.3s;
 }
 
 .star24 {
-  left: 57.8741065192%;
-  top: -1.353907239%;
+  left: 92.2792956193%;
+  top: -28.324739652%;
   right: initial;
   -webkit-animation-delay: -2.4s;
           animation-delay: -2.4s;
 }
 
 .star25 {
-  left: 71.8318454098%;
-  top: 45.8111471059%;
+  left: 67.6751069971%;
+  top: 21.0421386871%;
   right: initial;
   -webkit-animation-delay: -2.5s;
           animation-delay: -2.5s;
 }
 
 .star26 {
-  left: 19.9500703684%;
-  top: 4.8612845185%;
+  left: 59.8414172811%;
+  top: -9.598961668%;
   right: initial;
   -webkit-animation-delay: -2.6s;
           animation-delay: -2.6s;
 }
 
 .star27 {
-  left: 26.9604870489%;
-  top: -20.4835472963%;
+  left: 9.1321078844%;
+  top: 2.378294193%;
   right: initial;
   -webkit-animation-delay: -2.7s;
           animation-delay: -2.7s;
 }
 
 .star28 {
-  left: 71.9622699279%;
-  top: 21.3808551821%;
+  left: 41.3277147997%;
+  top: -9.5045709057%;
   right: initial;
   -webkit-animation-delay: -2.8s;
           animation-delay: -2.8s;
 }
 
 .star29 {
-  left: 9.7152196899%;
-  top: 29.1135560167%;
+  left: 34.9184355087%;
+  top: -26.7667109523%;
   right: initial;
   -webkit-animation-delay: -2.9s;
           animation-delay: -2.9s;
 }
 
 .star30 {
-  left: 18.3786240668%;
-  top: -9.6286688694%;
+  left: 58.0613200325%;
+  top: 45.882671091%;
   right: initial;
   -webkit-animation-delay: -3s;
           animation-delay: -3s;
@@ -592,12 +592,12 @@ a {
     opacity: 1;
   }
   0% {
-    -webkit-transform: translate(30px, 0px);
-            transform: translate(30px, 0px);
+    -webkit-transform: translate(35px, 0px);
+            transform: translate(35px, 0px);
   }
   100% {
-    -webkit-transform: translate(0, 60px);
-            transform: translate(0, 60px);
+    -webkit-transform: translate(0, 70px);
+            transform: translate(0, 70px);
   }
 }
 
@@ -609,12 +609,12 @@ a {
     opacity: 1;
   }
   0% {
-    -webkit-transform: translate(30px, 0px);
-            transform: translate(30px, 0px);
+    -webkit-transform: translate(35px, 0px);
+            transform: translate(35px, 0px);
   }
   100% {
-    -webkit-transform: translate(0, 60px);
-            transform: translate(0, 60px);
+    -webkit-transform: translate(0, 70px);
+            transform: translate(0, 70px);
   }
 }
 .pictures {
@@ -636,25 +636,25 @@ input:checked + .pictures .mountain {
 }
 input:checked + .pictures .moon {
   transition: 2s;
-  -webkit-transform: translate(-30px, -30px);
-          transform: translate(-30px, -30px);
+  -webkit-transform: translate(-35px, -35px);
+          transform: translate(-35px, -35px);
   opacity: 1;
 }
 
 .sun, .moon {
-  width: 15px;
-  height: 15px;
+  width: 17.5px;
+  height: 17.5px;
   border-radius: 50%;
 }
 
 .moon {
   z-index: 3;
   background-color: #f2ed8f;
-  box-shadow: 0 0 6px rgba(255, 247, 96, 0.5);
+  box-shadow: 0 0 7px rgba(255, 247, 96, 0.5);
   opacity: 0;
   left: auto;
-  top: 42px;
+  top: 49px;
   right: initial;
-  right: 60px;
+  right: 70px;
 }
 
