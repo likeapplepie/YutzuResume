@@ -641,7 +641,7 @@ input:checked + .pictures .moon {
   opacity: 1;
 }
 
-.sun, .moon {
+.moon {
   width: 17.5px;
   height: 17.5px;
   border-radius: 50%;
@@ -651,6 +651,7 @@ input:checked + .pictures .moon {
   z-index: 3;
   background-color: #f2ed8f;
   box-shadow: 0 0 7px rgba(255, 247, 96, 0.5);
+  transition: 1.5s;
   opacity: 0;
   left: auto;
   top: 49px;

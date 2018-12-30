@@ -645,6 +645,7 @@ input:checked + .pictures .moon {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+  transition: 1.5s;
   z-index: 3;
   background-color: #f2ed8f;
   box-shadow: 0 0 20px rgba(255, 247, 96, 0.5);
